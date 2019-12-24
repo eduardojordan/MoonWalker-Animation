@@ -1,0 +1,6 @@
+framework module Pods_MoonWalkerAnimation {
+  umbrella header "Pods-MoonWalkerAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

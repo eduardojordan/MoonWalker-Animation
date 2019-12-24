@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F47B6A23B2305900B98ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47B6923B2305900B98ABD /* AppDelegate.swift */; };
+		04F47B6C23B2305900B98ABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47B6B23B2305900B98ABD /* SceneDelegate.swift */; };
+		04F47B6E23B2305900B98ABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47B6D23B2305900B98ABD /* ViewController.swift */; };
+		04F47B7123B2305900B98ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F47B6F23B2305900B98ABD /* Main.storyboard */; };
+		04F47B7323B2305B00B98ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F47B7223B2305B00B98ABD /* Assets.xcassets */; };
+		04F47B7623B2305B00B98ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F47B7423B2305B00B98ABD /* LaunchScreen.storyboard */; };
+		04F47B7E23B230F700B98ABD /* 11755-moon-run.json in Resources */ = {isa = PBXBuildFile; fileRef = 04F47B7D23B230F700B98ABD /* 11755-moon-run.json */; };
+		DA904795A1CF834453EE70C6 /* Pods_MoonWalkerAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766B13CB90F973C32149BBE7 /* Pods_MoonWalkerAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F47B6623B2305900B98ABD /* MoonWalkerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonWalkerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F47B6923B2305900B98ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F47B6B23B2305900B98ABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04F47B6D23B2305900B98ABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F47B7023B2305900B98ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F47B7223B2305B00B98ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F47B7523B2305B00B98ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F47B7723B2305B00B98ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F47B7D23B230F700B98ABD /* 11755-moon-run.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "11755-moon-run.json"; sourceTree = "<group>"; };
+		711778DAB8285439E3ABE963 /* Pods-MoonWalkerAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoonWalkerAnimation.debug.xcconfig"; path = "Target Support Files/Pods-MoonWalkerAnimation/Pods-MoonWalkerAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		766B13CB90F973C32149BBE7 /* Pods_MoonWalkerAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoonWalkerAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B996D9C5889FAEF507DDDF /* Pods-MoonWalkerAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoonWalkerAnimation.release.xcconfig"; path = "Target Support Files/Pods-MoonWalkerAnimation/Pods-MoonWalkerAnimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F47B6323B2305900B98ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA904795A1CF834453EE70C6 /* Pods_MoonWalkerAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F47B5D23B2305900B98ABD = {
+			isa = PBXGroup;
+			children = (
+				04F47B6823B2305900B98ABD /* MoonWalkerAnimation */,
+				04F47B6723B2305900B98ABD /* Products */,
+				7440D4C81B6C45BBB33ACE89 /* Pods */,
+				CF11515A1862259C4643996A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F47B6723B2305900B98ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F47B6623B2305900B98ABD /* MoonWalkerAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F47B6823B2305900B98ABD /* MoonWalkerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				04F47B7D23B230F700B98ABD /* 11755-moon-run.json */,
+				04F47B6923B2305900B98ABD /* AppDelegate.swift */,
+				04F47B6B23B2305900B98ABD /* SceneDelegate.swift */,
+				04F47B6D23B2305900B98ABD /* ViewController.swift */,
+				04F47B6F23B2305900B98ABD /* Main.storyboard */,
+				04F47B7223B2305B00B98ABD /* Assets.xcassets */,
+				04F47B7423B2305B00B98ABD /* LaunchScreen.storyboard */,
+				04F47B7723B2305B00B98ABD /* Info.plist */,
+			);
+			path = MoonWalkerAnimation;
+			sourceTree = "<group>";
+		};
+		7440D4C81B6C45BBB33ACE89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711778DAB8285439E3ABE963 /* Pods-MoonWalkerAnimation.debug.xcconfig */,
+				97B996D9C5889FAEF507DDDF /* Pods-MoonWalkerAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF11515A1862259C4643996A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				766B13CB90F973C32149BBE7 /* Pods_MoonWalkerAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F47B6523B2305900B98ABD /* MoonWalkerAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F47B7A23B2305B00B98ABD /* Build configuration list for PBXNativeTarget "MoonWalkerAnimation" */;
+			buildPhases = (
+				BE96806BA233F8C26C4AE2C2 /* [CP] Check Pods Manifest.lock */,
+				04F47B6223B2305900B98ABD /* Sources */,
+				04F47B6323B2305900B98ABD /* Frameworks */,
+				04F47B6423B2305900B98ABD /* Resources */,
+				220FAB4F720D738BE8A232DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoonWalkerAnimation;
+			productName = MoonWalkerAnimation;
+			productReference = 04F47B6623B2305900B98ABD /* MoonWalkerAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F47B5E23B2305900B98ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = EdJordan;
+				TargetAttributes = {
+					04F47B6523B2305900B98ABD = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04F47B6123B2305900B98ABD /* Build configuration list for PBXProject "MoonWalkerAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F47B5D23B2305900B98ABD;
+			productRefGroup = 04F47B6723B2305900B98ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F47B6523B2305900B98ABD /* MoonWalkerAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F47B6423B2305900B98ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F47B7623B2305B00B98ABD /* LaunchScreen.storyboard in Resources */,
+				04F47B7323B2305B00B98ABD /* Assets.xcassets in Resources */,
+				04F47B7E23B230F700B98ABD /* 11755-moon-run.json in Resources */,
+				04F47B7123B2305900B98ABD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220FAB4F720D738BE8A232DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoonWalkerAnimation/Pods-MoonWalkerAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoonWalkerAnimation/Pods-MoonWalkerAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoonWalkerAnimation/Pods-MoonWalkerAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE96806BA233F8C26C4AE2C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoonWalkerAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F47B6223B2305900B98ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F47B6E23B2305900B98ABD /* ViewController.swift in Sources */,
+				04F47B6A23B2305900B98ABD /* AppDelegate.swift in Sources */,
+				04F47B6C23B2305900B98ABD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F47B6F23B2305900B98ABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F47B7023B2305900B98ABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F47B7423B2305B00B98ABD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F47B7523B2305B00B98ABD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F47B7823B2305B00B98ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F47B7923B2305B00B98ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F47B7B23B2305B00B98ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711778DAB8285439E3ABE963 /* Pods-MoonWalkerAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = MoonWalkerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoJordan.com.MoonWalkerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F47B7C23B2305B00B98ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B996D9C5889FAEF507DDDF /* Pods-MoonWalkerAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QSL65SU6PD;
+				INFOPLIST_FILE = MoonWalkerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EduardoJordan.com.MoonWalkerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F47B6123B2305900B98ABD /* Build configuration list for PBXProject "MoonWalkerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F47B7823B2305B00B98ABD /* Debug */,
+				04F47B7923B2305B00B98ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F47B7A23B2305B00B98ABD /* Build configuration list for PBXNativeTarget "MoonWalkerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F47B7B23B2305B00B98ABD /* Debug */,
+				04F47B7C23B2305B00B98ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F47B5E23B2305900B98ABD /* Project object */;
+}
